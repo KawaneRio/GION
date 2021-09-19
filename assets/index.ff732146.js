@@ -19,7 +19,7 @@ var e=Object.defineProperty,t=Object.defineProperties,r=Object.getOwnPropertyDes
 	gap: 16px;
 	flex-wrap: wrap;
 	justify-content: center;
-`,q=()=>{const e=m(),t=M((e=>e));return f.createElement(G,null,f.createElement(N,{primary:!0,onClick:()=>{e(k()),e(j())}},"再生成"),f.createElement(N,{onClick:()=>window.open(`https://twitter.com/intent/tweet?hashtags=擬音ジェネレーター&url=https://hijiki02.github.io/GION/&text=${t.gion}`)},"ツイートする"),f.createElement(N,{onClick:()=>window.open("https://github.com/hijiki02/GION")},"GitHub"))},L=p.div`
+`,q=()=>{const e=m(),t=M((e=>e));return f.createElement(G,null,f.createElement(N,{primary:!0,onClick:()=>{e(k()),e(j())}},"再生成"),f.createElement(N,{onClick:()=>window.open(`https://twitter.com/intent/tweet?hashtags=擬音ジェネレーター&url=https://hijiki02.github.io/GION/&text=${t.gion[t.index]}`)},"ツイートする"),f.createElement(N,{onClick:()=>window.open("https://github.com/hijiki02/GION")},"GitHub"))},L=p.div`
 	color: white;
 	text-align: center;
 	font-size: min(10vw, 96px);

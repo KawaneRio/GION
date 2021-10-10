@@ -41,7 +41,7 @@ var e,t=Object.defineProperty,r=Object.defineProperties,n=Object.getOwnPropertyD
         width: 64px;
         height: 64px;
     `}
-    border-radius: 100%;
+    border-radius: 50%;
 `,W=g.div`
 `,_=g.p`
     display: flex;
